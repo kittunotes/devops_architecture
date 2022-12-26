@@ -1,4 +1,4 @@
-<mxfile modified="2022-12-22T17:45:27.431Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="nfMEtXdbdFM2v5zt0cqZ" version="20.7.4" type="github" pages="2">
+<mxfile modified="2022-12-26T16:30:41.818Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="pFZP-R0Z_CP8RlJJt57j" version="20.7.4" type="github" pages="2">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="880" dy="3790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -281,6 +281,109 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-5" value="JIRA ITEMS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-6" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQ_tmddaDIG8sMsfJIH9-5">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-7" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQ_tmddaDIG8sMsfJIH9-5">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-8" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQ_tmddaDIG8sMsfJIH9-5">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="480" as="sourcePoint" />
+            <mxPoint x="400" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0952" y="-110" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="480" as="sourcePoint" />
+            <mxPoint x="640" y="60" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-13" value="UAT/SIT(Till Wed)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="25" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-14" value="Pre-Prod." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EQ_tmddaDIG8sMsfJIH9-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="215" as="targetPoint" />
+            <mxPoint x="218.57142857142867" y="255" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="310" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EQ_tmddaDIG8sMsfJIH9-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-19" value="QA &lt;br&gt;Pass?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="70" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EQ_tmddaDIG8sMsfJIH9-20" target="EQ_tmddaDIG8sMsfJIH9-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-solid-vol-1/24/bxs-archive-128.png" vertex="1" parent="1">
+          <mxGeometry x="490" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EQ_tmddaDIG8sMsfJIH9-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-solid-vol-1/24/bxs-archive-128.png" vertex="1" parent="1">
+          <mxGeometry x="490" y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EQ_tmddaDIG8sMsfJIH9-22" target="EQ_tmddaDIG8sMsfJIH9-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-solid-vol-1/24/bxs-archive-128.png" vertex="1" parent="1">
+          <mxGeometry x="670" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EQ_tmddaDIG8sMsfJIH9-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-25" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-solid-vol-1/24/bxs-archive-128.png" vertex="1" parent="1">
+          <mxGeometry x="490" y="260" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EQ_tmddaDIG8sMsfJIH9-22" target="EQ_tmddaDIG8sMsfJIH9-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="110" />
+              <mxPoint x="820" y="110" />
+              <mxPoint x="820" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-29" value="Regression testing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EQ_tmddaDIG8sMsfJIH9-28">
+          <mxGeometry x="-0.0714" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-30" value="Bugfix" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EQ_tmddaDIG8sMsfJIH9-28">
+          <mxGeometry x="0.5429" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ_tmddaDIG8sMsfJIH9-31" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-solid-vol-1/24/bxs-archive-128.png" vertex="1" parent="1">
+          <mxGeometry x="910" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
